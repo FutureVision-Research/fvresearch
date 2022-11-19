@@ -1,12 +1,13 @@
 /*theDemonstrator LED sequencer
 Intended to use with the Arduino Nano board.
 
-V1.0 5/27/2022
+V1.0 11/18/2022
 by Brian P. Cox, FutureVision Research
-Creative Commmons License Attribution-ShareAlike
+Sketch is under Creative Commmons License Attribution-NonCommercial-ShareAlike 4.0 International
+Circuit board design and theDemonstrator name copyright © Brian P. Cox and FutureVision Research, all rights reserved.
 */
 
-/* Declare contants
+/* Declare constants
 We declare Arduino pin numbers as constants so we can change them in one spot, instead of making the change throughout our code
 */
 const int FIRST_LED_PIN = 3, LAST_LED_PIN = 12; // Specifiy the first and last LED pins
